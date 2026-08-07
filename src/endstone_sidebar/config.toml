@@ -2,7 +2,8 @@
 update_period = 20
 
 [sidebar]
-title = "Welcome to Endstone!"
+title = "Welcome to OniStone!"
+default_enabled = true
 content = [
     "Name: §a{player_name}",
     "Ping: §a{ping}",

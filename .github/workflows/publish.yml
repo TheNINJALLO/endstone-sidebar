@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   publish:
+    if: github.repository == 'endstone-essentials/sidebar'
     runs-on: ubuntu-latest
     environment: pypi
     permissions:
